@@ -25,7 +25,7 @@
 # http://www.taygon.com/docs/post_install.sh
 #
 # Para que funcione es necesario ejecutarlo con privilegios de root:
-# su -c "./fedora_workstation.sh"
+# su -c "./postinstall-fedora_workstation.sh"
 #
 # LICENCIA
 # Este "scrip" post-install está liberado bajo la licencia:
