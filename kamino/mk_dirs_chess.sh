@@ -6,11 +6,9 @@ mkdir cbft
 mkdir cbm
 #
 mkdir chess-books
-cd chess-books
-mkdir pdf
-mkdir epub
-mkdir djvu
-cd ..
+mkdir -p chess-books/pdf/
+mkdir -p chess-books/epub/
+mkdir -p chess-books/djvu/
 #
 mkdir chess-magazines
 cd chess-magazines
