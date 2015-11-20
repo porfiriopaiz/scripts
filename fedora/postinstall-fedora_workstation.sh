@@ -150,6 +150,8 @@ dnf install ddrescue
 dnf install foremost
 # Tools for monitoring SMART capable hard disks
 dnf install smartmontools
+# A perl script for managing file archives of various types
+dnf install atool
 #
 # Graficos
 # An easy to use drawing and image editing program
