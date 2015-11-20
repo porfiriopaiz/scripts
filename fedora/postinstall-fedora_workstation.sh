@@ -267,7 +267,7 @@ dnf groups install Standard
 dnf install abattis-cantarell-fonts aajohan-comfortaa-fonts google-droid-serif-fonts google-noto-fonts-common mgopen-modata-fonts
 #
 # Temas para plymouth
-# Soy fan de tema 'details' para plymouth
+# Soy fan del tema 'details' para plymouth
 # Si quiere habilitarlo descomente (borre el simbolo de numeral '#')
 # de las siguiente dos lineas:
 #plymouth-set-default-theme details
