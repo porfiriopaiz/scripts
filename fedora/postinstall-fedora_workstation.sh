@@ -152,6 +152,8 @@ dnf install foremost
 dnf install smartmontools
 # A perl script for managing file archives of various types
 dnf install atool
+# A text-based user interface for Pidgin
+dnf install finch
 #
 # Graficos
 # An easy to use drawing and image editing program
@@ -235,6 +237,8 @@ dnf install icedtea-web
 #dnf install hexchat
 # A Gtk+ based multiprotocol instant messaging client
 dnf install pidgin
+# Off-The-Record Messaging plugin for Pidgin
+dnf install pidgin-otr
 # Google Chrome
 dnf install google-chrome-stable
 # Mozilla Thunderbird mail/newsgroup client
