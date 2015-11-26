@@ -153,7 +153,7 @@ dnf install smartmontools
 # A perl script for managing file archives of various types
 dnf install atool
 # A text-based user interface for Pidgin
-dnf install finch
+#dnf install finch
 #
 # Graficos
 # An easy to use drawing and image editing program
