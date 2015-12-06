@@ -11,35 +11,23 @@ mkdir -p chess-books/epub/
 mkdir -p chess-books/djvu/
 #
 mkdir chess-magazines
-cd chess-magazines
-mkdir periodicals
-cd periodicals
-mkdir twic
-cd twic
-mkdir pgn
-mkdir cbv
-cd ..
-cd ..
-cd ..
+mkdir -p chess-magazines/periodicals
+mkdir -p chess-magazines/periodicals/twic
+mkdir -p chess-magazines/periodicals/twic/pgn
+mkdir -p chess-magazines/periodicals/twic/cbv
 #
 mkdir chess-programs-gui
-cd chess-programs-gui
-mkdir engines
-cd ..
+mkdir -p chess-programs-gui/engines
 #
 mkdir databases
 #
 mkdir torrents
 #
 mkdir videos
-cd videos
-mkdir foxy_openings
-mkdir romans_lab
-mkdir icc
-cd ..
+mkdir -p videos/foxy_openings
+mkdir -p videos/romans_lab
+mkdir -p videos/icc
 #
 mkdir powerbooks
-cd powerbooks
-mkdir cb
-mkdir others
-cd ..
+mkdir powerbooks/cb
+mkdir powerbooks/others
