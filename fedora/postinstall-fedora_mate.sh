@@ -77,6 +77,10 @@ gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 EOF
 #
+# Remove
+dnf remove claws-mail
+dnf remove xfburn
+dnf remove exaile parole
 #
 # Actualizamos
 dnf update
