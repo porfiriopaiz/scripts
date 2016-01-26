@@ -1,5 +1,5 @@
 #! /bin/bash
-rm -rf ~/.cache/thumbnails/fail/gnome-thumbnail-factory/*.png
-rm -rf ~/.cache/thumbnails/large/*.png
-rm -rf ~/.cache/thumbnails/normal/*.png
-rm -rf ~/.local/share/recently-used.xbel
+rm ~/.cache/thumbnails/fail/gnome-thumbnail-factory/*.png
+rm ~/.cache/thumbnails/large/*.png
+rm ~/.cache/thumbnails/normal/*.png
+rm ~/.local/share/recently-used.xbel
