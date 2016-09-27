@@ -243,6 +243,8 @@ dnf install icedtea-web
 #dnf install xchat
 # A popular and easy to use graphical IRC (chat) client
 #dnf install hexchat
+# Jabber client written in PyGTK
+dnf install gajim
 # A Gtk+ based multiprotocol instant messaging client
 dnf install pidgin
 # Off-The-Record Messaging plugin for Pidgin
