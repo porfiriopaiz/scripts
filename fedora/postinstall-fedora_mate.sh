@@ -86,6 +86,10 @@ dnf remove exaile parole
 dnf update
 #
 # Linea de comandos
+# Fast Version Control System
+dnf install git
+# Mercurial -- a distributed SCM
+dnf install mercurial
 # A utility for retrieving files using the HTTP or FTP protocols
 dnf install wget
 # Accelerated download client
