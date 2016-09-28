@@ -190,6 +190,8 @@ dnf install gpx-viewer
 dnf install k3b
 # Graphical user interface for smartctl
 dnf install gsmartcontrol
+# GTK integration for Redshift
+dnf install redshift-gtk
 #
 # Herramientas del Sistema
 # A tool to customize advanced GNOME 3 options
@@ -243,6 +245,10 @@ dnf install icedtea-web
 #dnf install xchat
 # A popular and easy to use graphical IRC (chat) client
 #dnf install hexchat
+# Internet Relay Chat client for GNOME
+dnf install polari
+# Voice chat suite aimed at gamers
+dnf install mumble
 # Jabber client written in PyGTK
 dnf install gajim
 # A Gtk+ based multiprotocol instant messaging client
