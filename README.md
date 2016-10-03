@@ -1,6 +1,6 @@
 # My very onw "scripts"
 
-This repo contains my very owns scripts for doing to stuff after a fresh install and doing some other stuff.
+This repo contains my very owns scripts for doing some stuff after a fresh install and doing some other stuff.
 
 ### Chess
 
