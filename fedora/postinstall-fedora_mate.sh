@@ -145,7 +145,7 @@ dnf install ncdu
 # Interactive process viewer
 dnf install htop
 # Performance monitoring for the Linux kernel
-dnfi install perf
+dnf install perf
 # Creates an image of an ISO9660 file-system
 dnf install genisoimage
 # Generate QR 2D barcodes
