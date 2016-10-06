@@ -118,6 +118,12 @@ dnf install mc
 dnf install pdftk
 # A terminal multiplexer
 dnf install tmux
+# The ultimate status-line/prompt utility
+dnf install powerline
+# Powerline for tmux
+dnf install tmux-powerline
+# Powerline VIM plugin
+dnf install vim-powerline
 # Powerful interactive shell
 dnf install zsh
 # A friendly interactive shell

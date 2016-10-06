@@ -82,6 +82,10 @@ EOF
 dnf update
 #
 # Linea de comandos
+# Fast Version Control System
+dnf install git
+# Mercurial -- a distributed SCM
+dnf install mercurial
 # A utility for retrieving files using the HTTP or FTP protocols
 dnf install wget
 # Accelerated download client
@@ -142,6 +146,8 @@ dnf install unzip
 dnf install ncdu
 # Interactive process viewer
 dnf install htop
+# Performance monitoring for the Linux kernel
+dnf install perf
 # Creates an image of an ISO9660 file-system
 dnf install genisoimage
 # Generate QR 2D barcodes
@@ -188,6 +194,8 @@ dnf install gpx-viewer
 dnf install k3b
 # Graphical user interface for smartctl
 dnf install gsmartcontrol
+# GTK integration for Redshift
+dnf install redshift-gtk
 #
 # Herramientas del Sistema
 # A tool to customize advanced GNOME 3 options
@@ -241,6 +249,12 @@ dnf install icedtea-web
 #dnf install xchat
 # A popular and easy to use graphical IRC (chat) client
 #dnf install hexchat
+# Internet Relay Chat client for GNOME
+dnf install polari
+# Voice chat suite aimed at gamers
+dnf install mumble
+# Jabber client written in PyGTK
+dnf install gajim
 # A Gtk+ based multiprotocol instant messaging client
 dnf install pidgin
 # Off-The-Record Messaging plugin for Pidgin
