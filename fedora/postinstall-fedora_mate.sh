@@ -112,6 +112,8 @@ dnf install vim-enhanced
 dnf install vim-nerdtree
 # A tool for installing and managing Python packages
 dnf install python-pip
+# Tool to create isolated Python environments
+dnf install python3-virtualenv
 # User-friendly text console file manager and visual shell
 dnf install mc
 # The PDF Tool Kit
