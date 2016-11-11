@@ -170,6 +170,8 @@ dnf install foremost
 dnf install smartmontools
 # A perl script for managing file archives of various types
 dnf install atool
+# A flexible console file manager
+dnf install ranger
 # A text-based user interface for Pidgin
 #dnf install finch
 #
