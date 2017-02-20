@@ -52,7 +52,7 @@
 # mientras usa Fedora, debería considerar añadir las siguientes lineas
 # al archivo de configuración del gestor y administrador de paquetes dnf (/etc/dnf/dnf.conf)
 echo 'fastestmirror=true' >> /etc/dnf/dnf.conf
-echo 'deltarpm=true' >> /etc/dnf/dnf.conf
+echo 'deltarpm=false' >> /etc/dnf/dnf.conf
 echo 'keepcache=true' >> /etc/dnf/dnf.conf
 #
 # Habilitando Repositorios
