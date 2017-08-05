@@ -86,6 +86,8 @@ dnf remove exaile parole
 dnf update
 #
 # Linea de comandos
+# Website copier and offline browser
+dnf install httrack
 # Fast Version Control System
 dnf install git
 # Mercurial -- a distributed SCM
