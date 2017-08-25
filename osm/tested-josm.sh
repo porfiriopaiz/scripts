@@ -1,2 +1,2 @@
 #! /bin/bash
-java -jar ~/.josm/jar/josm-tested.jar
+java -jar ~/.cache/JOSM/jar/josm-tested.jar
