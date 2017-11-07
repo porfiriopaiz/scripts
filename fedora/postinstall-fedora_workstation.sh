@@ -168,6 +168,8 @@ dnf install atool
 dnf install ranger
 # A text-based user interface for Pidgin
 #dnf install finch
+# Writes binary image files to any specified block device
+dnf install fedora-arm-installer
 #
 # Graficos
 # An easy to use drawing and image editing program
