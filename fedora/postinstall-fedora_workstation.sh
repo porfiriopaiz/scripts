@@ -12,7 +12,7 @@
 #
 # Por el contrario, si encuentra que le ha sido de gran utilidad no dude en
 # notificármelo a la cuenta de correo porfiriopaiz@gmail.com
-# 
+#
 # Por favor no se moleste en solicitarme que añada nuevas funcionalidades.
 # Pero si encuentra algún fallo y considera que debe ser corregido no dude
 # en contactarme.
