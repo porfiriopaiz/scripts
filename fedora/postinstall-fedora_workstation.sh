@@ -280,16 +280,27 @@ dnf install vlc
 # Desktop session recorder with audio and video
 dnf install recordmydesktop
 #
+# Grupos de paquetes
 # Desarrollo
-dnf groups install Development\ Libraries
-dnf groups install C\ Development\ Tools\ and\ Libraries
-dnf groups install Development\ Libraries
-dnf groups install Development\ Tools
-dnf groups install LibreOffice
-dnf groups install Printing\ Support
-dnf groups install Fedora\ Packager
-dnf groups install RPM\ Development\ Tools
-dnf groups install Standard
+dnf -y groups install c-development
+dnf -y groups install development-libs
+dnf -y groups install development-tools
+dnf -y groups install fedora-packager
+dnf -y groups install rpm-development-tools
+dnf -y groups install c-development
+dnf install automake gcc gcc-c++ kernel-devel cmake
+dnf install python-devel python3-devel
+dnf install monodevelop
+dnf install golang
+dnf install nodejs
+dnf install rust
+dnf install cargo
+dnf install python3-virtualenv
+dnf install python3-pip
+#
+# Utilerías
+dnf groups install libreoffice
+dnf groups install printing
 #
 # Fuentes comunmente usadas en el proyecto fedora
 dnf install abattis-cantarell-fonts aajohan-comfortaa-fonts google-droid-serif-fonts google-noto-fonts-common mgopen-modata-fonts
