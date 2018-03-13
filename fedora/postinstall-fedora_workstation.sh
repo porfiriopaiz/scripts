@@ -47,39 +47,6 @@
 #
 #  0. You just DO WHAT THE FUCK YOU WANT TO.
 #
-# Opcional
-# Si usted quiere tener una experiencia agradable
-# mientras usa Fedora, debería considerar añadir las siguientes lineas
-# al archivo de configuración del gestor y administrador de paquetes dnf (/etc/dnf/dnf.conf)
-echo 'fastestmirror=true' >> /etc/dnf/dnf.conf
-echo 'deltarpm=false' >> /etc/dnf/dnf.conf
-echo 'keepcache=true' >> /etc/dnf/dnf.conf
-#
-# Habilitando Repositorios
-#
-# Habilitando RPMFusion
-# http://rpmfusion.org/
-# http://rpmfusion.org/Configuration
-#
-# Habilitando RPMFusion Free y RPMFusion Non-free
-su -c 'dnf install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm'
-#
-# Habilitando Repositorio de Google
-#http://www.if-not-true-then-false.com/2010/install-google-chrome-with-yum-on-fedora-red-hat-rhel/
-#
-# Con este comando creamos el archivo google-chrome.repo
-cat << EOF > /etc/yum.repos.d/google-chrome.repo
-[google-chrome]
-name=google-chrome - \$basearch
-baseurl=http://dl.google.com/linux/chrome/rpm/stable/\$basearch
-enabled=1
-gpgcheck=1
-gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
-EOF
-#
-#
-# Actualizamos
-dnf update
 #
 # Linea de comandos
 # Fast Version Control System
