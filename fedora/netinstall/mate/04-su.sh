@@ -51,7 +51,7 @@ dnf -y install gimp
 dnf -y install pyrenamer
 dnf -y install gpx-viewer
 dnf -y install bleachbit
-dnf -y install liveusb-creator
+dnf -y install mediawriter
 dnf -y install lshw-gui
 dnf -y install josm
 dnf -y install qgis
