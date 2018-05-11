@@ -19,5 +19,5 @@ serves as a backup.
 
 ### osm
 
-Files for automathing boring stuff such as getting the most recent version
-from josm.
+Files for automathing boring stuff such as getting the most recent version from
+josm.
