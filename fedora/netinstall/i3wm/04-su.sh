@@ -67,3 +67,4 @@ dnf -y install mpv
 dnf -y install telegram-desktop
 dnf -y install keepassxc
 dnf -y install python3-virtualenvwrapper
+dnf -y install gnome-terminal
