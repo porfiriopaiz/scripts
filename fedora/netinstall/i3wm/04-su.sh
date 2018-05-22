@@ -35,7 +35,11 @@ dnf -y install youtube-dl
 dnf -y install iotop
 dnf -y install nethogs
 dnf -y install lshw
+dnf -y install p7zip
+dnf -y install p7zip-plugins
+dnf -y install p7zip-gui
 dnf -y install unrar
+dnf -y install unzip
 dnf -y install ncdu
 dnf -y install htop
 dnf -y install perf
