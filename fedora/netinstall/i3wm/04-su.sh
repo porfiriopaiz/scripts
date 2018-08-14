@@ -72,4 +72,4 @@ dnf -y install telegram-desktop
 dnf -y install keepassxc
 dnf -y install python3-virtualenvwrapper
 dnf -y install gnome-terminal
-dnf -y install gnome-disks
+dnf -y install gnome-disk-utility
