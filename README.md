@@ -59,7 +59,7 @@ Back up them on the git_repos/dotfiles/ repo.
   * upstream
 * Generate a script for:
   * Backing up in tar files
-  * Bacling up URL's
+  * Backing up URL's
   * Cloning them back
   * Pushing local changes to origin
 * Local uncommited changes must be commited to a `tmp` branch and pushed to
