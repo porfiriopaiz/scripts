@@ -126,7 +126,7 @@ rsync --verbose --archive --update --progress --partial --delete --backup --back
 * GNOME Terminal Mod4+Return
 * Lock Screen Mod4+L
 * Run Application Mod4+Space
-* Toggle maximizatio state Mod4+Up
+* Toggle maximization state Mod4+Up
 * Restore window Mod4+Down
 * Move window to the center of screen Mod4+C
 
