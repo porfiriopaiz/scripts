@@ -9,13 +9,13 @@ dnf -y install git
 dnf -y install git-subtree
 dnf -y install xclip
 dnf -y install automake gcc gcc-c++ kernel-devel cmake
-dnf -y install python-devel python3-devel
-dnf -y install python3-wheel
 dnf -y install monodevelop
 dnf -y install golang
 dnf -y install nodejs
 dnf -y install rust
 dnf -y install cargo
+dnf -y install python-devel python3-devel
+dnf -y install python3-wheel
 dnf -y install python2-virtualenv
 dnf -y install python3-virtualenv
 dnf -y install python3-virtualenvwrapper
@@ -90,6 +90,14 @@ dnf -y install python3-axolotl python3-axolotl-curve25519 python3-qrcode
 dnf -y install chromium
 dnf -y install keepassxc
 dnf -y install gnome-terminal
+dnf -y install gnome-disk-utility
+dnf -y install firefox
+dnf -y install xbacklight
+dnf -y install network-manager-applet
+dnf -y install i3lock
+dnf -y install transmission
+dnf -y install fedora-workstation-repositories
+dnf -y install fedora-repos-rawhide
 dnf -y group install libreoffice
 dnf -y install NetworkManager-tui
 # Pygame Development Environment

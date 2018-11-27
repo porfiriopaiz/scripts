@@ -14,6 +14,7 @@ dnf -y install gnome-icon-theme
 dnf -y install gnome-icon-theme-extras
 dnf -y install i3
 dnf -y install lightdm-gtk
+dnf -y install xdg-user-dirs
 systemctl set-default graphical.target
 systemctl enable lightdm.service
 reboot
