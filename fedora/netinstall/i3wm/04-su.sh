@@ -4,7 +4,7 @@ dnf -y group install development-libs
 dnf -y group install development-tools
 dnf -y group install rpm-development-tools
 dnf -y group install fedora-packager
-dnf -y group install fedora-review
+dnf -y install fedora-review
 dnf -y install flatpak
 dnf -y install git
 dnf -y install git-subtree
