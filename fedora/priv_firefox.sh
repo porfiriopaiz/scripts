@@ -1,2 +1,2 @@
 #! /bin/bash
-firefox -private
+firefox -private -P
