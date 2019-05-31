@@ -4,6 +4,7 @@ dnf -y group install development-libs
 dnf -y group install development-tools
 dnf -y group install rpm-development-tools
 dnf -y group install fedora-packager
+dnf -y install fedora-review
 dnf -y install flatpak
 dnf -y install git
 dnf -y install git-subtree
@@ -14,13 +15,13 @@ dnf -y install golang
 dnf -y install nodejs
 dnf -y install rust
 dnf -y install cargo
-dnf -y install python-devel python3-devel
+dnf -y install python-devel
+dnf -y install python3-devel
 dnf -y install python3-wheel
 dnf -y install python2-virtualenv
 dnf -y install python3-virtualenv
 dnf -y install python3-virtualenvwrapper
 dnf -y install python3-pip
-dnf -y install pipenv
 dnf -y install python3-flake8
 dnf -y install python3-pytest
 dnf -y install hunspell
@@ -68,7 +69,6 @@ dnf -y install bleachbit
 dnf -y install mediawriter
 dnf -y install lshw-gui
 dnf -y install josm
-dnf -y install qgis
 dnf -y install calibre
 dnf -y install icedtea-web
 dnf -y install mumble
@@ -85,26 +85,19 @@ dnf -y install ffmpeg
 dnf -y install mpv
 dnf -y install telegram-desktop
 dnf -y install corebird
-dnf -y install gajim
-dnf -y install python3-axolotl python3-axolotl-curve25519 python3-qrcode
-dnf -y install chromium
+dnf -y install gajim python3-axolotl python3-axolotl-curve25519 python3-qrcode
+dnf -y install chromium-vaapi
 dnf -y install keepassxc
-dnf -y install gnome-terminal
 dnf -y install gnome-disk-utility
-dnf -y install firefox
-dnf -y install xbacklight
-dnf -y install network-manager-applet
-dnf -y install i3lock
+dnf -y group install firefox
 dnf -y install transmission
-dnf -y install fedora-workstation-repositories
-dnf -y install fedora-repos-rawhide
 dnf -y group install libreoffice
 dnf -y install NetworkManager-tui
 # Pygame Development Environment
 # dnf -y group install sugar-desktop-environment
 # dnf -y install install python2-decorator webkitgtk4 sugar-runner gnome-builder devhelp gettext-devel autoconf-archive
 # dnf -y install csound-python2-csound-devel
-# dnf -y install gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel git python3-cairo-devel cairo-gobject-devel gobject-introspection-devel
+dnf -y install gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel git python3-cairo-devel cairo-gobject-devel gobject-introspection-devel
 dnf -y install icaro
 dnf -y install arduino
 dnf -y install scratch
@@ -125,3 +118,14 @@ dnf -y install docker
 dnf -y install sen
 # Installed for Isolation
 dnf -y install policycoreutils-sandbox policycoreutils-python-utils
+dnf -y install gvfs-*
+dnf -y install python3-pygments
+dnf -y install texworks
+dnf -y install w3m w3m-img
+dnf -y install perl-XML-LibXML
+dnf -y install perl-XML-SemanticDiff
+dnf -y install rpm-build cabextract ttmkfdir
+dnf -y install arm-image-installer
+dnf -y install python3-markdown python3-pdfkit-0.5.0-11.fc29.noarch wkhtmltopdf
+dnf -y install python-scapy
+dnf -y install python3-scapy
