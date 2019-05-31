@@ -18,7 +18,6 @@ su -c 'dnf -y install fedora-workstation-repositories'
 su -c 'dnf -y install fedora-repos-rawhide'
 # Enable COPR for remarkable and ghostwriter
 su -c 'dnf -y copr enable neteler/remarkable'
-su -c 'dnf -y copr enable scx/ghostwriter'
 su -c 'dnf -y copr enable philfry/gajim'
 # Refreshes the cache
 su -c 'dnf check-update'
