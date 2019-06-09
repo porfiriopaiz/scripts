@@ -20,5 +20,7 @@ su -c 'dnf -y install fedora-repos-rawhide'
 su -c 'dnf -y copr enable neteler/remarkable'
 su -c 'dnf -y copr enable philfry/gajim'
 su -c 'dnf -y copr enable dani/qgis'
+su -c 'dnf copr enable @dotnet-sig/dotnet'
+
 # Refreshes the cache
 su -c 'dnf check-update'

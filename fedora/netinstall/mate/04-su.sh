@@ -129,3 +129,4 @@ dnf -y install arm-image-installer
 dnf -y install python3-markdown python3-pdfkit-0.5.0-11.fc29.noarch wkhtmltopdf
 dnf -y install python-scapy
 dnf -y install python3-scapy
+dnf -y install dotnet
