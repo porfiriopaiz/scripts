@@ -1,0 +1,3 @@
+#! /bin/bash
+su -c 'cryptsetup open /dev/sda6 data'
+su -c 'mount /dev/mapper/data /mnt/'

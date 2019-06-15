@@ -1,2 +1,2 @@
 #!/bin/bash
-chromium-browser --incognito
+chromium-vaapi --incognito

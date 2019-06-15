@@ -1,0 +1,3 @@
+#! /bin/bash
+su -c 'umount /mnt/'
+su -c 'cryptsetup close /dev/mapper/data'
