@@ -1,0 +1,6 @@
+#! /bin/bash
+nmcli connection add type wifi ifname wlp3s0 con-name lilit autoconnect yes ssid lilit
+nmcli connection modify lilit 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
+nmcli connection modify lilit wifi-sec.key-mgmt wpa-psk
+nmcli connection modify lilit wifi-sec.psk "foobarbaz"
+#nmcli connection up lilit
