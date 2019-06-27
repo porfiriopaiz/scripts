@@ -85,7 +85,8 @@ dnf -y install ffmpeg
 dnf -y install mpv
 dnf -y install telegram-desktop
 dnf -y install corebird
-dnf -y install chromium
+dnf -y install gajim python3-axolotl python3-axolotl-curve255
+dnf -y install chromium-vaapi
 dnf -y install keepassxc
 dnf -y install gnome-terminal
 dnf -y install gnome-disk-utility
@@ -102,10 +103,10 @@ dnf -y install NetworkManager-tui
 # dnf -y group install sugar-desktop-environment
 # dnf -y install install python2-decorator webkitgtk4 sugar-runner gnome-builder devhelp gettext-devel autoconf-archive
 # dnf -y install csound-python2-csound-devel
-# dnf -y install gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel git python3-cairo-devel cairo-gobject-devel gobject-introspection-devel
-dnf -y install icaro
-dnf -y install arduino
-dnf -y install scratch
+#dnf -y install gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel git python3-cairo-devel cairo-gobject-devel gobject-introspection-devel
+#dnf -y install icaro
+#dnf -y install arduino
+#dnf -y install scratch
 dnf -y install gtkhash3
 dnf -y install policycoreutils-gui
 dnf -y install setools-gui
@@ -131,7 +132,6 @@ dnf -y install pluma
 dnf -y install blueman
 dnf -y install gvfs-*
 dnf -y install gnome-screenshot
-dnf -y install gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel git python3-cairo-devel cairo-gobject-devel gobject-introspection-devel
 dnf -y install python3-pygments
 dnf -y install texworks
 dnf -y install w3m w3m-img
@@ -141,3 +141,8 @@ dnf -y install perl-XML-SemanticDiff
 dnf -y install rpm-build cabextract ttmkfdir
 dnf -y install arm-image-installer
 dnf -y install lm_sensors
+dnf -y install python3-markdown python3-pdfkit wkhtmltopdf
+dnf -y install python-scapy
+dnf -y install python3-scapy
+dnf -y install dotnet
+dnf -y install codium

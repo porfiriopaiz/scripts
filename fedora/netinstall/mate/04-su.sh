@@ -126,7 +126,7 @@ dnf -y install perl-XML-LibXML
 dnf -y install perl-XML-SemanticDiff
 dnf -y install rpm-build cabextract ttmkfdir
 dnf -y install arm-image-installer
-dnf -y install python3-markdown python3-pdfkit-0.5.0-11.fc29.noarch wkhtmltopdf
+dnf -y install python3-markdown python3-pdfkit wkhtmltopdf
 dnf -y install python-scapy
 dnf -y install python3-scapy
 dnf -y install dotnet
