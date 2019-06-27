@@ -51,6 +51,7 @@ dnf -y install p7zip
 dnf -y install p7zip-plugins
 dnf -y install unrar
 dnf -y install unzip
+dnf -y install unar
 dnf -y install atool
 dnf -y install ncdu
 dnf -y install ranger
@@ -63,6 +64,26 @@ dnf -y install foremost
 dnf -y install pinta
 dnf -y install inkscape
 dnf -y install gimp
+dnf -y install gimp-data-extras
+dnf -y install gimp-dbp
+dnf -y install gimp-dds-plugin
+dnf -y install gimp-elsamuko
+dnf -y install gimp-focusblur-plugin
+dnf -y install gimp-fourier-plugin
+dnf -y install gimpfx-foundry.noarch
+dnf -y install gimp-gap
+dnf -y install gimp-high-pass-filter
+dnf -y install gimp-layer-via-copy-cut
+dnf -y install gimp-lensfun
+dnf -y install gimp-lqr-plugin
+dnf -y install gimp-luminosity-masks
+dnf -y install gimp-paint-studio
+dnf -y install gimp-resynthesizer
+dnf -y install gimp-save-for-web
+dnf -y install gimp-wavelet-decompose
+dnf -y install gimp-wavelet-denoise-plugin
+dnf -y install gmic-gimp
+dnf -y install GREYCstoration-gimp
 dnf -y install pyrenamer
 dnf -y install gpx-viewer
 dnf -y install bleachbit
@@ -98,6 +119,7 @@ dnf -y install transmission
 dnf -y install fedora-workstation-repositories
 dnf -y install fedora-repos-rawhide
 dnf -y group install libreoffice
+dnf -y install libreoffice-gallery-vrt-network-equipment
 dnf -y install NetworkManager-tui
 # Pygame Development Environment
 # dnf -y group install sugar-desktop-environment
@@ -117,7 +139,7 @@ dnf -y install ghostwriter
 # Installed for Virtualization
 dnf -y group install --with-optional virtualization
 dnf -y install qemu
-dnf -y install python2-libguestfs python3-libguestfs
+dnf -y install libguestfs-tools python2-libguestfs python3-libguestfs
 dnf -y install qemu-img libvirt libvirt-python libvirt-client
 dnf -y install podman
 dnf -y install docker
@@ -146,3 +168,34 @@ dnf -y install python-scapy
 dnf -y install python3-scapy
 dnf -y install dotnet
 dnf -y install codium
+dnf -y install arc-theme
+dnf -y install blender
+dnf -y install darktable
+dnf -y install exfat-utils
+dnf -y install filezilla
+dnf -y install fuse-exfat
+dnf -y install fuse-sshfs
+dnf -y install kdenlive
+dnf -y install krita
+dnf -y install NetworkManager-openvpn-gnome
+dnf -y install openshot
+dnf -y install openssh-askpass
+dnf -y install pv
+dnf -y install rawtherapee
+dnf -y install vagrant
+dnf -y install vagrant-libvirt
+dnf -y install virt-manager
+dnf -y install wavemon
+dnf -y install ansible
+dnf -y install adobe-source-code-pro-fonts
+dnf -y install borgbackup
+dnf -y install gitg
+dnf -y install meld
+dnf -y install nload
+dnf -y install tig
+dnf -y install cockpit
+dnf -y install cockpit-bridge
+dnf -y install fortune-mod
+dnf -y install sqlite-analyzer
+dnf -y install sqlitebrowser
+dnf -y install syncthing-gtk
