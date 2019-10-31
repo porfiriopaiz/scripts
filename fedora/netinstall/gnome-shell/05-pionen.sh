@@ -2,7 +2,7 @@
 cd ~/Downloads
 wget -N -t 0 -c https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 su -c 'dnf install google-chrome-stable_current_x86_64.rpm'
-su -c 'dnf check-update '
+su -c 'dnf check-upgrade'
 cd ~/
 su -c 'dnf install tracker-preferences'
 mkdir ~/.config/autostart

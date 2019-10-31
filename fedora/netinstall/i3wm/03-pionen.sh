@@ -27,4 +27,4 @@ EOF
 "
 
 # Refreshes the cache
-su -c 'dnf check-update'
+su -c 'dnf check-upgrade'

@@ -2,6 +2,6 @@
 dnf clean all
 dnf makecache
 dnf upgrade
-dnf --refresh check-update
+dnf --refresh check-upgrade
 dnf upgrade
 reboot

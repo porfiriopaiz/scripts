@@ -9,7 +9,7 @@ gsettings set org.mate.media-handling automount-open false
 mkdir ~/git_repos
 mkdir ~/projects
 su -c 'dnf -y remove xfburn'
-su -c 'dnf -y remove exaile parole'
+su -c 'dnf -y remove exaile'
 su -c 'dnf -y remove parole'
 su -c 'dnf -y remove hexchat'
 su -c 'dnf -y remove dnfdragora'
@@ -34,4 +34,4 @@ EOF
 "
 
 # Refreshes the cache
-su -c 'dnf check-update'
+su -c 'dnf check-upgrade'
