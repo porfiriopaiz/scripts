@@ -86,7 +86,7 @@ dnf -y install mpv
 dnf -y install telegram-desktop
 dnf -y install corebird
 dnf -y install gajim python3-axolotl python3-axolotl-curve25519 python3-qrcode
-dnf -y install chromium-vaapi
+dnf -y install chromium-freeworld
 dnf -y install keepassxc
 dnf -y install gnome-disk-utility
 dnf -y group install firefox
@@ -131,3 +131,6 @@ dnf -y install python-scapy
 dnf -y install python3-scapy
 dnf -y install dotnet
 dnf -y install codium
+dnf -y install arc-theme
+dnf -y install gnome-icon-theme gnome-icon-theme-extras gnome-icon-theme-legacy gnome-icon-theme-symbolic
+dnf -y install thonny
