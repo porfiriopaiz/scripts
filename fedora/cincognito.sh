@@ -1,2 +1,2 @@
 #!/bin/bash
-chromium-vaapi --incognito
+chromium-freeworld --incognito
