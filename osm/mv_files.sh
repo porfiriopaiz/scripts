@@ -1,6 +1,6 @@
 #! /bin/bash
-chmod +x get_josm.sh
-chmod +x update_josm.sh
-chmod +x latest-josm.sh
-chmod +x tested-josm.sh
-mv get_josm.sh update_josm.sh latest-josm.sh tested-josm.sh /usr/local/bin/
+cp get_josm.sh update_josm.sh latest-josm.sh tested-josm.sh ~/.local/bin/
+chmod +x ~/.local/bin/get_josm.sh
+chmod +x ~/.local/bin/update_josm.sh
+chmod +x ~/.local/bin/latest-josm.sh
+chmod +x ~/.local/bin/tested-josm.sh
