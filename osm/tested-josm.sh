@@ -1,2 +1,2 @@
 #! /bin/bash
-java -jar ~/.cache/JOSM/jar/josm-tested.jar
+java -Dsun.java2d.uiScale=1.0 -jar ~/.cache/JOSM/jar/josm-tested.jar
